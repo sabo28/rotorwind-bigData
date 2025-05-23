@@ -5,14 +5,14 @@ import json
 # Kafka-Consumer konfigurieren
 consumer = KafkaConsumer(
     'temperatures',
-    bootstrap_servers='localhost:9092',
+    bootstrap_servers='broker:9092',
     auto_offset_reset='earliest',
     group_id='rotorwind-influx-group',
     value_deserializer=lambda x: json.loads(x.decode('utf-8'))
 )
 
 # InfluxDB-Verbindung
-influx_client = InfluxDBClient(host='localhost', port=8086)
+influx_client = InfluxDBClient(host='influxdb', port=8086)
 influx_client.switch_database('rotorwind')
 
 # Kafka-Nachrichten lesen und in InfluxDB speichern
