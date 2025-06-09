@@ -49,7 +49,7 @@ docker-compose down
 - Abfrageintervall: alle 5 Sekunden (synchron mit Datenfrequenz)
 
 🛠 Anleitung zur Einrichtung von Grafana:
-👉 [Grafana-Setup lesen](./grafana-setup.md)
+👉 [Grafana-Setup](./grafana-setup.md)
 
 ## 🧪 Beispieloutput
 
