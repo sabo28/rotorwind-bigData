@@ -14,7 +14,7 @@ Die Anwendung besteht aus folgenden Komponenten:
 
 ## 🐳 Docker-basierter Aufbau
 
-Alle Komponenten (außer ggf. Grafana-Dashboards) sind vollständig containerisiert. Die Orchestrierung erfolgt über Docker Compose.
+Alle Komponenten (außer die Einrichtung von Grafana) sind vollständig containerisiert. Die Orchestrierung erfolgt über Docker Compose.
 
 ### ▶️ Starten des Prototyps
 
@@ -42,9 +42,9 @@ docker-compose down
 
 - Ein Schwellenwert (80 °C) löst visuelle Alarme aus:
 
-  - 🔴 Rot: Alarm (Temperatur über 80 °C)
+  - 🔴 Rote vertikale Linie: Alarm (Temperatur über 80 °C)
 
-  - 🟢 Grün: Entwarnung (Temperatur unter 80 °C)
+  - 🟢 Grüne vertikale Linie: Entwarnung (Temperatur unter 80 °C)
 
 - Abfrageintervall: alle 5 Sekunden (synchron mit Datenfrequenz)
 
