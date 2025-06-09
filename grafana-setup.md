@@ -46,6 +46,7 @@ SELECT mean("temperature") FROM "temperatures" WHERE $timeFilter GROUP BY time($
 5. Time range auf `Last 5 minutes` oder beliebigen stellen
 6. (Falls noch nicht vorhanden) Im Menü Visualization: **Tresholds → + Add tresholds → Rote Farbe und Value 80**
 7. Show tresholds: **As lines**
+8. Save dashboard
 
 ## 4. Alert-Regel hinzufügen (Grenzwert: 80 °C)
 1. Im Panel: Alert → Create alert rule
