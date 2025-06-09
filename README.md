@@ -63,7 +63,5 @@ Consumer: Empfangen: {'machine_id': 'M1', 'timestamp': '2025-06-01T12:00:00', 't
 
 - Docker Compose
 
-- (Optional: Python 3.11+, falls du Producer/Consumer auch lokal testest)
-
 ## 📎 Lizenz
 Dieses Projekt wurde im Rahmen einer Fallstudie zur Demonstration eines Big-Data-Prototyps erstellt. Es unterliegt keiner Lizenzpflicht.
