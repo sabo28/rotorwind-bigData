@@ -5,7 +5,7 @@ import json
 # Kafka-Consumer konfigurieren
 consumer = KafkaConsumer(
     'temperatures',
-    bootstrap_servers='broker:9092',
+    bootstrap_servers='kafka:9092',
     auto_offset_reset='earliest',
     group_id='rotorwind-influx-group',
     value_deserializer=lambda x: json.loads(x.decode('utf-8'))

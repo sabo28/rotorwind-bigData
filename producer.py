@@ -5,7 +5,7 @@ from datetime import datetime
 import random
 
 producer = KafkaProducer(
-    bootstrap_servers='broker:9092',
+    bootstrap_servers='kafka:9092',
     value_serializer=lambda v: json.dumps(v).encode('utf-8')
 )
 
