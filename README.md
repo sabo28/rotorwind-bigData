@@ -28,15 +28,6 @@ docker-compose up
 docker-compose down
 ```
 
-## 📁 Verzeichnisstruktur
-.  
-├── docker-compose.yml  
-├── Dockerfile  
-├── producer.py  
-├── consumer.py  
-├── grafana-setup.md  
-└── README.md
-
 ## 📊 Visualisierung & Alarmierung
 - Echtzeitdaten werden in Grafana angezeigt.
 
