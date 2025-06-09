@@ -42,6 +42,7 @@ Dieser Leitfaden beschreibt die manuelle Einrichtung des Dashboards zur Visualis
 SELECT mean("temperature") FROM "temperatures" WHERE $timeFilter GROUP BY time($__interval) fill(null)
 ```
 3. Visualisierungstyp: **Time series**
+4. Rechts oben im Dashboard: **Dropdown „Auto refresh“ → 5s**
 
 ## 4. Alert-Regel hinzufügen (Grenzwert: 80 °C)
 1. Im Panel: Alert → Create alert rule
